@@ -1,16 +1,13 @@
-## Hi there 👋
+# Kemal Durmuş
 
-<!--
-**KemalDurmus/KemalDurmus** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Student at Ege University, Tire Kutsan Vocational School.
 
-Here are some ideas to get you started:
+## Graduation project: DeepGuard (in progress, 2026–2027)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Local deepfake detection for live screen/audio, video and photos.
+
+**Visual side (my part):** trained an EfficientNet-B4 face-manipulation / AI-generated face detector (self-blended images + own FLUX.1-schnell generations, licensed real photos), with a frozen calibration threshold and a one-time locked test on an unseen generator (Kandinsky 2.2).
+
+**Product integration:** Flask + vanilla JS app scoring live frames, videos and photos; raw model scores only, no verdict without calibration and acceptance evidence.
+
+Source code is private for now (team project); details available on request.
